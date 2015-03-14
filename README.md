@@ -12,5 +12,5 @@ This little project shows a t-SNE visualization of articles from [The Guardian](
 ## Results
 - [U.S. news](http://stanford.edu/~rkeisler/tsne_guardian/us/)
 - [World news](http://stanford.edu/~rkeisler/tsne_guardian/world/)
-- [Football/Soccer new](http://stanford.edu/~rkeisler/tsne_guardian/football/)
+- [Football/Soccer news](http://stanford.edu/~rkeisler/tsne_guardian/football/)
  
