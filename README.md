@@ -5,7 +5,7 @@ This little project shows a t-SNE visualization of articles from [The Guardian](
 - Used the Guardian API to grab the title and thumbnail of all articles published in 2014.
 - Used the [spacy](https://honnibal.github.io/spaCy/) NLP code to extract nouns from titles and trailing text.  Each article is now a "bag-of-nouns".
 - Calculated cosine distance between articles in the bag-of-noun space.
-- Used the `scikit-learn` t-SNE implementation to embed the articles in a 2d space, based on those cosine distances.
+- Used the [scikit-learn t-SNE implementation](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) to embed the articles in a 2d space, based on those cosine distances.
 - Made a big jpg image showing the thumbnails for the articles in this 2d space.
 - Hacked some leaflet/javascript for browser visualization.
 
