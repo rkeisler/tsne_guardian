@@ -6,10 +6,17 @@ datadir = 'data/'
 pl.ion()
 global_seed = 1
 
-def main(quick_pos=False):
-    pipeline(section='us-news', quick_pos=quick_pos)
-    pipeline(section='world', quick_pos=quick_pos)
-    pipeline(section='football', quick_pos=quick_pos)
+def main(section='us-news'):
+    # Downloads the data from the Guardian API.
+    # you'll need to get your own API key and put 
+    # it a file called my_api_key.
+    x = load_raw_set(section=section, quick=False)
+
+    # Vectorizes sentences, embeds into 2d based on 
+    # bag-of-noun distance, creates relevant jpg 
+    # and html pages.
+    pipeline(section=section, quick_pos=False)
+
 
 def pipeline(section='us-news', quick_pos=False):
     np.random.seed(global_seed)
