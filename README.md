@@ -10,7 +10,7 @@ This little project shows a t-SNE visualization of articles from [The Guardian](
 - Hacked some leaflet/javascript for browser visualization.
 
 ## Results
-- [U.S. news](http://stanford.edu/~rkeisler/tsne_guardian/us/)
-- [World news](http://stanford.edu/~rkeisler/tsne_guardian/world/)
-- [Football/Soccer news](http://stanford.edu/~rkeisler/tsne_guardian/football/)
+- [U.S. news](http://rkeisler.github.io/tsne_guardian/us/)
+- [World news](http://rkeisler.github.io/tsne_guardian/world/)
+- [Football/Soccer news](http://rkeisler.github.io/tsne_guardian/football/)
  
